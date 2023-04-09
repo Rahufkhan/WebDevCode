@@ -1,0 +1,14 @@
+.container{
+    height: 500px;
+    background-color: yellow;
+    border: 1px solid black;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box{
+    background-color: aqua;
+    border:3px solid black;
+    width:80px;
+}
